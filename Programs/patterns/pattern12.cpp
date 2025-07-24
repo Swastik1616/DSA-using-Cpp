@@ -17,6 +17,7 @@ void pattern12(int n){
         for(int j=1;j<=i;j++){
             cout << j;
         }
+        cout << endl;
     }
 }
 
