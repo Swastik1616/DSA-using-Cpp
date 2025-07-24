@@ -8,15 +8,17 @@ void pattern12(int n){
         for(int j=1;j<=i;j++){
             cout << j;
         }
+        
         //spaces
         for(int j=1;j<=temp+2;j++){
-            cout << "-";
+            cout << " ";
         }
         temp-=2;
 
         //second triangle
+        int k=i;
         for(int j=1;j<=i;j++){
-            cout << i--;
+            cout << k--;
         }       
         cout << endl;
     }
@@ -27,3 +29,4 @@ int main(){
     cin >> n;
     pattern12(n);
 }
+// ab tak ka best question maza aagayaa..logic in diary.
