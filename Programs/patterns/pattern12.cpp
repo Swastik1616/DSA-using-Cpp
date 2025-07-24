@@ -9,12 +9,17 @@ void pattern12(int n){
             cout << j;
         }
         //spaces
-        for(int j=i;j<=(2*temp)-2;j++){
+        for(int j=1;j<=temp+2;j++){
             cout << "-";
         }
+        temp-=2;
+
+        //second triangle
+        for(int j=1;j<=i;j++){
+            cout << i--;
+        }       
         cout << endl;
     }
-    temp-=2;
 }
 
 int main(){
