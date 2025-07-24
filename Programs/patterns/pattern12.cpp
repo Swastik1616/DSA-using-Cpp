@@ -2,23 +2,19 @@
 using namespace std;
 
 void pattern12(int n){
+    int temp=n;
     for(int i=1;i<=n;i++){
         //first triangle
         for(int j=1;j<=i;j++){
             cout << j;
         }
-
         //spaces
-        for(int j=n+2;j>=0;j-=2){
+        for(int j=i;j<=(2*temp)-2;j++){
             cout << "-";
-        }
-
-        //second triangle
-        for(int j=1;j<=i;j++){
-            cout << j;
         }
         cout << endl;
     }
+    temp-=2;
 }
 
 int main(){
