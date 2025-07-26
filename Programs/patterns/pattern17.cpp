@@ -1,3 +1,5 @@
+//masttt pattern
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -14,8 +16,8 @@ void pattern17(int n){
         }
 
         //chars second part
-        for(char ch='A'; ch<'A'+i-1;ch++){
-            cout << ch-- << " ";
+        for(char ch='A'+i-2; ch>='A';ch--){
+            cout << ch << " ";
         }
         cout << endl;
     }
