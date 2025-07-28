@@ -17,5 +17,14 @@ int main() {
     cout << "Original Date: " << fullDate << endl;
     cout << "Short Format: " << shortFormat << endl;
 
+    // find and rfind
+    cout << "-------------------------" << endl;
+    string text = "online";          // A simple word
+
+    size_t first = text.find('n');   // Find first 'n' bcoz searches from L to R
+    size_t last = text.rfind('n');   // Find last 'n' bcoz searches from R to L
+
+    cout << first << endl;           // Show first 'n' position Output: 1
+    cout << last << endl;            // Show last 'n' position Output: 4
     return 0;
 }
