@@ -1,5 +1,1 @@
-Original Date: 2024-12-25
-Short Format: 12/25
--------------------------
-1
-4
+Comparison result: 1
