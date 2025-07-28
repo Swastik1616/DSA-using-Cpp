@@ -27,5 +27,6 @@ int main() {
     cout << first << endl;           // Show first 'n' position Output: 1
     cout << last << endl;            // Show last 'n' position Output: 4
    //note that we can also search for substrings like this instead of single characters
-    return 0;
+   // str_varName.clear() is used to make the string empty. 
+   return 0;
 }
