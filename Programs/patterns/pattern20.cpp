@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// just interchanged the upper hald and lower half loops of pattern 19
+// just interchanged the upper half and lower half loops of pattern 19
 void pattern20(int n){
     //upper half
     for(int i=1;i<n;i++){
@@ -36,7 +36,6 @@ void pattern20(int n){
         }
         cout << endl;
     }
-
 }
 
 int main(){
