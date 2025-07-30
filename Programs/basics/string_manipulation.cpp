@@ -32,4 +32,13 @@ int main(){
     convert to lower case*/
     transform(headline.begin(), headline.end(), headline.begin(), ::tolower);
     cout << "Lowercase Headline -  " << headline << endl;
+
+    // str1.erase(position) - deletes all char from this position till last
+    // st1.erase(position,length) - starts from position and deletes the characters equal to length
+    headline.erase(13);
+    cout << headline << endl;
+
+    // str1.insert(position,string/char)
+    headline.insert(13,"!");
+    cout << headline << endl;
 }

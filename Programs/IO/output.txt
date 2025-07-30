@@ -1,4 +1,7 @@
-****
-*  *
-*  *
-****
+C++ is cool
+C++ is cool
+Cleary, the comment is proved!
+Uppercase Headline -  BREAKING NEWS: NEW DISCOVERY
+Lowercase Headline -  breaking news: new discovery
+breaking news
+breaking news!
