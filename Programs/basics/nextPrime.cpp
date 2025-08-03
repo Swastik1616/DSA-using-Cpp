@@ -1,3 +1,7 @@
+/*Problem Link -
+https://www.geeksforgeeks.org/problems/next-prime-number/1?page=1&category=CPP&difficulty=Medium&sortBy=submissions
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
