@@ -1,4 +1,3 @@
-World
-, World!
-Hello, World!
-o
+YES
+YES
+NO
