@@ -41,4 +41,11 @@ int main(){
     // str1.insert(position,string/char)
     headline.insert(13,"!");
     cout << headline << endl;
+
+    /*
+        while (i < text.length()) { // Iterate through each character
+        text[i] = toupper(text[i]);
+        i++ ; // Move to the next character
+    }
+    */
 }
