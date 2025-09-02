@@ -27,7 +27,7 @@ int main() {
     vec5.push_back(30);
 
     // 6. Copying an existing vector
-    vector<int> vec6 = vec4;
+    vector<int> vec6 = vec4; // or vector<int> vec6(vec4);
 
     // Displaying the contents
     cout << "Vector initialized using different methods:\n";
