@@ -6,8 +6,8 @@ int main()
 {
 
     //2D array/vector
-    vector<vector<int> > arr(5, vector<int>(4,0));
-    int totalRows = arr.size();
+    vector< vector<int> > arr(5, vector<int>(4,0));
+    int totalRows = arr.size(); 
     int totalColumns = arr[0].size();
     //2d array created
     //with 5 rows
