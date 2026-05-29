@@ -48,6 +48,15 @@ void insertAtBegin(int x) {
 }
 */
 
+/*
+void insertAtBegin(int x) {
+    Node* temp = new Node();
+    temp->data = x;
+    temp->next = head;
+    head = temp;
+}
+*/
+
 void printNodes() {
     Node* p = head;
     while (p != nullptr) {
@@ -72,5 +81,6 @@ int main() {
     }
 
     printNodes();
+    
     return 0;
 }
