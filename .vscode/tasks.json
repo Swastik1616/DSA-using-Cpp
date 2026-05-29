@@ -4,12 +4,10 @@
         {
             "label": "compile",
             "type": "shell",
-            "command": "g++",
+            "command": "cmd.exe",
             "args": [
-                "-std=c++17",
-                "-o",
-                "${fileBasenameNoExtension}.exe",
-                "${file}"
+                "/c",
+                "if \"${fileExtname}\" == \".c\" (gcc -o \"${fileBasenameNoExtension}.exe\" \"${file}\") else (g++ -std=c++17 -o \"${fileBasenameNoExtension}.exe\" \"${file}\")"
             ],
             "group": {
                 "kind": "build",
@@ -23,7 +21,7 @@
             "command": "cmd.exe",
             "args": [
                 "/c",
-                "g++ -std=c++17 -o \"${fileBasenameNoExtension}.exe\" \"${file}\" && \"${fileBasenameNoExtension}.exe\" < Programs/IO/input.txt > Programs/IO/output.txt "
+                "if \"${fileExtname}\" == \".c\" (gcc -o \"${fileBasenameNoExtension}.exe\" \"${file}\" && \"${fileBasenameNoExtension}.exe\" < IO/input.txt > IO/output.txt) else (g++ -std=c++17 -o \"${fileBasenameNoExtension}.exe\" \"${file}\" && \"${fileBasenameNoExtension}.exe\" < IO/input.txt > IO/output.txt)"
             ],
             "group": "build",
             "options": {
