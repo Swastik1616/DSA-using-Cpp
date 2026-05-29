@@ -36,6 +36,17 @@ void insertAtBegin(int x){
     }
 }
 
+/*
+void insertAtBegin(int x) {
+    struct Node* temp = (struct Node*)malloc(sizeof(struct Node));
+    temp->data = x;
+    temp->next = NULL;
+
+    if (head != NULL) temp->next = head;
+    head = temp;
+}
+*/
+
 void printNodes(){
     struct Node* p = head;
     while(p!=NULL){
@@ -54,7 +65,6 @@ int main(){
         scanf("%d",&x);
         insertAtEnd(x);
     }
-
     printNodes();
     return 0;
 }
