@@ -1,0 +1,6 @@
+The Linked List is : 10->20->30->40
+The Number of Nodes in it is : 4
+Data of Last Node is : 40
+Data of Second Last Node is : 30
+1 is not present in the Linked List
+Alternate Nodes of the Linked List are : 10 30 
