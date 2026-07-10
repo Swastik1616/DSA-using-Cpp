@@ -1,5 +1,5 @@
 The Linked List is: 10->20->30->40
-The New Linked List is: 20->30->40
-The New Linked List is: 30->40
-The New Linked List is: 40
+The New Linked List is: 10->20->30
+The New Linked List is: 10->20
+The New Linked List is: 10
 The New Linked List is: empty
